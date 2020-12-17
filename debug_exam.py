@@ -52,7 +52,7 @@ def uniqueUpdate(data1, data2):
                 del data1[k]
             else:
                 # Add (k, v2) to data1
-                data1[k] = v2
+                data1.add(k,v2)
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
